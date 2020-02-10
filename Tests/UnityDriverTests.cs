@@ -95,7 +95,7 @@ namespace UnityTestPilotTests {
             }
 
             // Act 
-            var query = By.TypeWithName<Button>(targetName);
+            var query = By.Type<Button>(targetName);
             var actualElement = _driver.FindElement(query);
         
             // Assert
@@ -115,7 +115,7 @@ namespace UnityTestPilotTests {
             }
 
             // Act 
-            var query = By.TypeWithName<Button>(targetName);
+            var query = By.Type<Button>(targetName);
             var actualElements = _driver.FindElements(query);
         
             // Assert

@@ -45,7 +45,7 @@ namespace UnityTestPilotTests {
             var element = new UiElement(_go);
             
             // Act
-            var actualActive = element.ActiveInHierarchy;
+            var actualActive = element.IsActive;
 
             // Assert
             Assert.AreEqual(expectedActive, actualActive);
