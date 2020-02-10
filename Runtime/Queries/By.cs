@@ -1,6 +1,4 @@
-using AIR.UnityPilot.Queries;
-
-namespace AIR.UnityPilot {
+namespace AIR.UnityTestPilot.Queries {
     public static class By {
 
         public static ElementQuery Name(string name) {

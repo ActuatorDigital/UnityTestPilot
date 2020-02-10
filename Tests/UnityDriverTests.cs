@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
-using AIR.UnityPilot;
-using AIR.UnityPilot.Agents;
-using AIR.UnityPilot.Drivers;
+using AIR.UnityTestPilot.Agents;
+using AIR.UnityTestPilot.Drivers;
+using AIR.UnityTestPilot.Queries;
 using NUnit.Framework;
 using UnityEngine.UI;
 using UnityEngine;
 
-namespace UnityPilotTests {
+namespace UnityTestPilotTests {
     
     [TestFixture]
     public class UnityDriverTests {

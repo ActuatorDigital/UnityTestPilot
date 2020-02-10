@@ -1,7 +1,7 @@
-using AIR.Autopilot.Interactions;
-using AIR.UnityPilot.Queries;
+using AIR.UnityTestPilot.Interactions;
+using AIR.UnityTestPilot.Queries;
 
-namespace AIR.UnityPilot.Agents {
+namespace AIR.UnityTestPilot.Agents {
     public interface IUnityDriverAgent {
         UiElement[] Query(ElementQuery query);
         void Shutdown();

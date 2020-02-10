@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
-using AIR.Autopilot.Interactions;
+using AIR.UnityTestPilot.Interactions;
 
-namespace AIR.UnityPilot.Queries {
+namespace AIR.UnityTestPilot.Queries {
     public class TypedElementQuery : ElementQuery {
 
         private Type _queryType;

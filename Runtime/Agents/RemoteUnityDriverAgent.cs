@@ -1,8 +1,8 @@
 using System;
-using AIR.Autopilot.Interactions;
-using AIR.UnityPilot.Queries;
+using AIR.UnityTestPilot.Interactions;
+using AIR.UnityTestPilot.Queries;
 
-namespace AIR.UnityPilot.Agents {
+namespace AIR.UnityTestPilot.Agents {
     class RemoteUnityDriverAgent : IUnityDriverAgent {
         
         public async void Shutdown() {

@@ -1,8 +1,8 @@
 using System.Linq;
-using AIR.Autopilot.Interactions;
+using AIR.UnityTestPilot.Interactions;
 using UnityEngine;
 
-namespace AIR.UnityPilot.Queries {
+namespace AIR.UnityTestPilot.Queries {
     public class NamedElementQuery : ElementQuery {
 
         private string _queryName;

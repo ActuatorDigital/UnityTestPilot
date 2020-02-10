@@ -1,4 +1,4 @@
-namespace AIR.UnityPilot.Interactions {
+namespace AIR.UnityTestPilot.Interactions {
     
    /// <summary>
    /// Unity's Keycode enum. Replication here is necessary to support the portability of the remote libraries.  

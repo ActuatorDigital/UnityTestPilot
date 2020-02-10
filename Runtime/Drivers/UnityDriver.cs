@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
-using AIR.Autopilot.Interactions;
-using AIR.UnityPilot.Agents;
-using AIR.UnityPilot.Queries;
+using AIR.UnityTestPilot.Agents;
+using AIR.UnityTestPilot.Interactions;
+using AIR.UnityTestPilot.Queries;
 
-namespace AIR.UnityPilot.Drivers {
+namespace AIR.UnityTestPilot.Drivers {
     
     public class UnityDriver : IDisposable {
         

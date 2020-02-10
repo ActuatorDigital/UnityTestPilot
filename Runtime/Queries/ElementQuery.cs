@@ -1,6 +1,6 @@
-using AIR.Autopilot.Interactions;
+using AIR.UnityTestPilot.Interactions;
 
-namespace AIR.UnityPilot.Queries {
+namespace AIR.UnityTestPilot.Queries {
     
     public abstract class ElementQuery {
         

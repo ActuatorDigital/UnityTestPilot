@@ -1,18 +1,16 @@
-using System.Collections;
-using AIR.Autopilot.Interactions;
+using AIR.UnityTestPilot.Interactions;
 using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.TestTools;
 using UnityEngine.UI;
 
-namespace UnityPilotTests {
+namespace UnityTestPilotTests {
     
     [TestFixture]
-    public class UiElementTests {
+    public class UiElementStateTests {
         
         const string TEST_NAME = "Test";
         private GameObject _go;
-        
+
         [SetUp]
         public void SetUp() {
             _go = new GameObject(TEST_NAME);
@@ -52,8 +50,7 @@ namespace UnityPilotTests {
             // Assert
             Assert.AreEqual(expectedActive, actualActive);
         }
-        
-        
+
     }
     
 }

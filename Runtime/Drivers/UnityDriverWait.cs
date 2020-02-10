@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Threading.Tasks;
-using AIR.Autopilot.Interactions;
+using AIR.UnityTestPilot.Interactions;
 using UnityEngine;
 
-namespace AIR.UnityPilot.Drivers {
+namespace AIR.UnityTestPilot.Drivers {
     
     public class UnityDriverWait {
         

@@ -3,12 +3,12 @@ using System.Collections;
 using NUnit.Framework;
 using UnityEngine;
 using System;
-using AIR.Autopilot.Interactions;
-using AIR.UnityPilot;
-using AIR.UnityPilot.Agents;
-using AIR.UnityPilot.Drivers;
+using AIR.UnityTestPilot.Agents;
+using AIR.UnityTestPilot.Drivers;
+using AIR.UnityTestPilot.Interactions;
+using AIR.UnityTestPilot.Queries;
 
-namespace UnityPilotTests {
+namespace UnityTestPilotTests {
     
     [TestFixture]
     public class UnityDriverWaitTests {
