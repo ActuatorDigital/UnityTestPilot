@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace AIR.UnityTestPilot.Agents {
     public class NativeUnityDriverAgent : IUnityDriverAgent {
-        
+
         public void Shutdown() {
             #if !UNITY_EDITOR
             Application.Quit();
@@ -13,8 +13,6 @@ namespace AIR.UnityTestPilot.Agents {
         }
 
         public void SetTimeScale(float timeScale) {
-            throw new NotImplementedException(
-                "Change Time.timeScale for faster test replay.");
             Time.timeScale = timeScale;
         }
 

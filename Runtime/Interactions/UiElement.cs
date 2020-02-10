@@ -1,6 +1,8 @@
 using System;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 using Object = UnityEngine.Object;
 
 namespace AIR.UnityTestPilot.Interactions {
@@ -11,14 +13,38 @@ namespace AIR.UnityTestPilot.Interactions {
         
         public string Name => _object.name;
         
-        public bool ActiveInHierarchy {
+        public bool IsActive {
             get {
-                if(_object is GameObject mgo)
-                    return mgo.activeInHierarchy;
+                if(_object is MonoBehaviour mgo)
+                    return mgo.isActiveAndEnabled;
+                if(_object is GameObject go)
+                    return go.activeInHierarchy;
                 return false;
             }
         }
-        
+
+        public string Text {
+            get {
+                
+                if (_object is Text goText) 
+                    return goText.text;
+                
+                if (_object is MonoBehaviour goMb) {
+                    goText = goMb.GetComponent<Text>();
+                    if (goText != null)
+                        return goText.text;
+                }
+
+                if (_object is GameObject go) {
+                    goText = go.GetComponent<Text>();
+                    if (goText != null)
+                        return goText.text;
+                }
+
+                throw new InvalidOperationException(_object.name + " has no text.");
+            }
+        }
+
         public UiElement(Object obj) {
             _object = obj;
         }

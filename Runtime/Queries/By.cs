@@ -5,7 +5,7 @@ namespace AIR.UnityTestPilot.Queries {
             return new NamedElementQuery(name);
         }
 
-        public static ElementQuery TypeWithName<T>(string name) {
+        public static ElementQuery Type<T>(string name) {
             return new TypedElementQuery(typeof(T), name);
         }
 
