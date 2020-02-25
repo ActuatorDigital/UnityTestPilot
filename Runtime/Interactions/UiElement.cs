@@ -41,7 +41,7 @@ namespace AIR.UnityTestPilot.Interactions {
                         return goText.text;
                 }
 
-                throw new InvalidOperationException(_object.name + " has no text.");
+                return string.Empty;
             }
         }
 
