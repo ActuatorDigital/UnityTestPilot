@@ -67,12 +67,10 @@ namespace UnityTestPilotTests {
             var goQuery = _driver.FindElement(By.Name(_testRootGo.name));
             
             // Act
-            TestDelegate act = () => {
-                var callWithException = goQuery.Text;
-            };
-            
+            var goText = goQuery.Text;
+
             // Assert
-            Assert.Throws<InvalidOperationException>(act);
+            Assert.IsTrue(string.IsNullOrEmpty(goText));
             
         }
 
