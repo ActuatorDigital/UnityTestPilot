@@ -1,5 +1,5 @@
 {
-    "name": "UnityDriver.Tests",
+    "name": "AIR.UnityTestpilot.Tests",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
