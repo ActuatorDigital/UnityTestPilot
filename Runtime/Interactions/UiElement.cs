@@ -79,6 +79,15 @@ namespace AIR.UnityTestPilot.Interactions {
                 foreach (var handler in handlers)
                     buttonAction?.Invoke(handler, EventSystem.current);
             }
+
+            if (_object is GameObject go) {
+                var button = go.GetComponent<Button>();
+                if (button != null) {
+                    var handlers = button.GetComponents<T>();
+                    foreach (var handler in handlers)
+                        buttonAction?.Invoke(handler, EventSystem.current);
+                }
+            }
         } 
 
         public void SimulateKeys(KeyCode[] keys) {
