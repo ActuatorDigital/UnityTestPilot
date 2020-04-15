@@ -3,3 +3,10 @@ AIR.UnityTestpilot/bin/
 UnityTestPilot/bin/
 UnityTestPilot/obj/
 .idea/
+Examples/Native/Library/
+Examples/Native/Temp/
+Examples/Native/ProjectSettings/
+Examples/Native/Native.sln
+Examples/Native/obj/
+Examples/Native/AIR.UnityTestPilot.Native.csproj
+Examples/Native/Logs/
