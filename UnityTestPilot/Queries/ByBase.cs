@@ -1,6 +1,4 @@
 using System;
-using System.Diagnostics;
-using TachyonCommon;
 
 namespace AIR.UnityTestPilot.Queries {
     public static class ByBase {

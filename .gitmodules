@@ -1,0 +1,9 @@
+[submodule "UnityTestPilot.RemoteClient"]
+	path = UnityTestPilot.RemoteClient
+	url = https://github.com/AnImaginedReality/UnityTestPilot.RemoteClient.git
+[submodule "UnityTestPilot.RemoteHost"]
+	path = UnityTestPilot.RemoteHost
+	url = https://github.com/AnImaginedReality/UnityTestPilot.RemoteHost.git
+[submodule "UnityTestPilot.Native"]
+	path = UnityTestPilot.Native
+	url = https://github.com/AnImaginedReality/UnityTestPilot.Native.git

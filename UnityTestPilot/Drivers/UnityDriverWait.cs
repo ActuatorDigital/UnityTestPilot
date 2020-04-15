@@ -32,14 +32,11 @@ namespace AIR.UnityTestPilot.Drivers {
             } while (DateTime.Now < _timeout);
         }
 
-        public Task<UiElement> Until(Func<UnityDriver, UiElement> until) {
+        public Task<UiElement> Until(Func<UnityDriver, UiElement> until) => 
             throw new NotImplementedException("Wait until found in task.");
-        }
 
-        public UiElement UntilSync(Func<UnityDriver, UiElement> until) {
+        public UiElement UntilSync(Func<UnityDriver, UiElement> until) => 
             throw new NotImplementedException("Sync hold until task result.");
-        }
-        
     }
     
 }
