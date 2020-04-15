@@ -1,31 +1,12 @@
-using System.Linq;
-using AIR.UnityTestPilot.Interactions;
-using UnityEngine;
+namespace AIR.UnityTestPilot.Queries
+{
+    public abstract class NamedElementQuery : ElementQuery
+    {
+        protected readonly string _queryName;
 
-namespace AIR.UnityTestPilot.Queries {
-    public class NamedElementQuery : ElementQuery {
-
-        private string _queryName;
-        
-        public NamedElementQuery(string name) {
+        protected NamedElementQuery(string name) {
             _queryName = name;
         }
-
-        public override UiElement[] Search() {
-
-            var elements = GameObject
-                .FindObjectsOfType<GameObject>();
-
-            if (elements.Any()) {
-                var namedElements = elements
-                    .Where(o => o.name == _queryName)
-                    .ToArray();
-                if(namedElements.Any())
-                    return namedElements.Select(o => 
-                        new UiElement(o)).ToArray();
-            }
-            
-            return null;
-        }
+        
     }
 }

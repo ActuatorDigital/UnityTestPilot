@@ -2,17 +2,16 @@ using System;
 using System.Collections;
 using System.Threading.Tasks;
 using AIR.UnityTestPilot.Interactions;
-using UnityEngine;
 
 namespace AIR.UnityTestPilot.Drivers {
     
     public class UnityDriverWait {
         
-        private float _timeout;
+        private DateTime _timeout;
         private UnityDriver _driver;
 
         public UnityDriverWait(UnityDriver driver, TimeSpan timeout) {
-            _timeout = Time.time + (float)timeout.TotalSeconds;
+            _timeout = DateTime.Now + timeout;
             _driver = driver;
         }
         
@@ -30,15 +29,15 @@ namespace AIR.UnityTestPilot.Drivers {
                     onFound(uiElement);
                     break;
                 }
-            } while (Time.time < _timeout);
+            } while (DateTime.Now < _timeout);
         }
 
         public Task<UiElement> Until(Func<UnityDriver, UiElement> until) {
-            return null;
+            throw new NotImplementedException("Wait until found in task.");
         }
 
         public UiElement UntilSync(Func<UnityDriver, UiElement> until) {
-            return null;
+            throw new NotImplementedException("Sync hold until task result.");
         }
         
     }
