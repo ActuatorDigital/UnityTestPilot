@@ -8,7 +8,7 @@ namespace AIR.UnityTestPilot.Drivers {
     
     public class UnityDriver : IDisposable {
         
-        private IUnityDriverAgent _agent;
+        private readonly IUnityDriverAgent _agent;
 
         public UnityDriver(IUnityDriverAgent agent) {
             _agent = agent;

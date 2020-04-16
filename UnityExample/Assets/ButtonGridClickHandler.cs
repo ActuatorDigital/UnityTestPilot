@@ -23,10 +23,10 @@ public class ButtonGridClickHandler : MonoBehaviour
         Color color,
         bool drive,
         string affix = ""
-    ) {
+    )
+    {
         var childButtons = buttonGroup.GetComponentsInChildren<Button>();
         foreach (var childButton in childButtons) {
-
             string buttonName = "Button_" + childButton.transform.GetSiblingIndex() + affix;
             childButton.name = buttonName;
             childButton.image.color = color;

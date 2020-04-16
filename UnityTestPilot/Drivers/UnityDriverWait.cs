@@ -7,8 +7,8 @@ namespace AIR.UnityTestPilot.Drivers {
     
     public class UnityDriverWait {
         
-        private DateTime _timeout;
-        private UnityDriver _driver;
+        private readonly DateTime _timeout;
+        private readonly UnityDriver _driver;
 
         public UnityDriverWait(UnityDriver driver, TimeSpan timeout) {
             _timeout = DateTime.Now + timeout;

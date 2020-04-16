@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3B493FEF-D941-85CE-963C-7DBE01BCB5A6}</ProjectGuid>
+    <ProjectGuid>{F077E861-208E-5537-A2DD-4456279D85CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AIR.UnityTestPilot.Native.Tests</AssemblyName>
@@ -65,19 +65,19 @@
     <Compile Include="\media\Work\AIR-UnityTestPilot\UnityTestPilot.Native\Tests\UnityDriverWaitTests.cs" />
     <None Include="\media\Work\AIR-UnityTestPilot\UnityTestPilot.Native\Tests\AIR.UnityTestPilot.Native.Tests.asmdef" />
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/media/Work/AIR-UnityTestPilot/Examples/Native/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/media/Work/AIR-UnityTestPilot/Examples/Native/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Coroutiner">
-      <HintPath>/media/Work/AIR-UnityTestPilot/Examples/Native/Library/ScriptAssemblies/Coroutiner.dll</HintPath>
+      <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/ScriptAssemblies/Coroutiner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/media/Work/AIR-UnityTestPilot/Examples/Native/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/media/Work/AIR-UnityTestPilot/Examples/Native/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/opt/unity/2019.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -254,7 +254,7 @@
       <HintPath>/opt/unity/2019.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/media/Work/AIR-UnityTestPilot/Examples/Native/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="AIR.UnityTestPilot">
       <HintPath>/media/Work/AIR-UnityTestPilot/UnityTestPilot.Native/Runtime/AIR.UnityTestPilot.dll</HintPath>
@@ -607,7 +607,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AIR.UnityTestPilot.Native.csproj">
-      <Project>{32CA6E93-9650-7420-C1BA-845F17CBB0C8}</Project>
+      <Project>{EDBE0406-57AA-6FBC-DEAA-4638CA14F69F}</Project>
       <Name>AIR.UnityTestPilot.Native</Name>
     </ProjectReference>
   </ItemGroup>
@@ -620,13 +620,13 @@
   </Target>
   -->
   <ItemGroup>
-    <Analyzer Include="/media/Work/AIR-UnityTestPilot/Examples/Native/Library/PackageCache/com.air.stylecop@699c754279/StyleCop.Analyzers.dll" />
-    <Analyzer Include="/media/Work/AIR-UnityTestPilot/Examples/Native/Library/PackageCache/com.air.stylecop@699c754279/StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="/media/Work/AIR-UnityTestPilot/UnityExample/Library/PackageCache/com.air.stylecop@699c754279/StyleCop.Analyzers.dll" />
+    <Analyzer Include="/media/Work/AIR-UnityTestPilot/UnityExample/Library/PackageCache/com.air.stylecop@699c754279/StyleCop.Analyzers.CodeFixes.dll" />
   </ItemGroup>
   <ItemGroup>
-    <AdditionalFiles Include="/media/Work/AIR-UnityTestPilot/Examples/Native/Library/PackageCache/com.air.stylecop@699c754279/stylecop.json" />
+    <AdditionalFiles Include="/media/Work/AIR-UnityTestPilot/UnityExample/Library/PackageCache/com.air.stylecop@699c754279/stylecop.json" />
   </ItemGroup>
   <PropertyGroup>
-    <CodeAnalysisRuleSet>/media/Work/AIR-UnityTestPilot/Examples/Native/Library/PackageCache/com.air.stylecop@699c754279/stylecop.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>/media/Work/AIR-UnityTestPilot/UnityExample/Library/PackageCache/com.air.stylecop@699c754279/stylecop.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 </Project>
