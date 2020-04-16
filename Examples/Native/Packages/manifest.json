@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.air.stylecop": "https://github.com/animaginedreality/stylecop.package.git",
-    "com.air.unitytestpilot.native": "file:/media/Work/AIR-UnityTestPilot/UnityTestPilot.Native",
-    "com.air.unitytestpilot.remotehost": "file:/media/Work/AIR-UnityTestPilot/UnityTestPilot.RemoteHost",
+    "com.air.unitytestpilot.native": "file:../../../UnityTestPilot.Native",
+    "com.air.unitytestpilot.remotehost": "file:../../../UnityTestPilot.RemoteHost",
     "com.seb.coroutiner": "https://github.com/Fehrox/Coroutiner.git",
     "com.seb.tachyon.common": "https://github.com/Fehrox/TachyonCommon-UnityPackage.git",
     "com.seb.tachyon.host": "https://github.com/Fehrox/TachyonHost-UnityPackage.git",
