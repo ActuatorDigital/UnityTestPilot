@@ -1,30 +1,23 @@
-﻿// Copyright (c) AIR Pty Ltd. All rights reserved.
-
+﻿using AIR.UnityTestPilot.Drivers;
+using AIR.UnityTestPilot.Queries;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RiderButtonExample : MonoBehaviour
+public class NativeButtonExample : MonoBehaviour
 {
+    private UnityDriver _driver;
+    [SerializeField] private ButtonGridClickHandler _buttonGridClickHandler;
 
-    [SerializeField] private GridLayoutGroup _clickPanel = null;
-    [SerializeField] private GridLayoutGroup _simulatePanel = null;
-
-    public void Start()
+    private void Start()
     {
-        SetupButtons(_clickPanel, "G", Color.green, true);
-        SetupButtons(_simulatePanel, "B", Color.blue, false);
+        _buttonGridClickHandler.OnButtonClicked += ClickCorrespondingButton;
+        _driver = new UnityDriverNative();
     }
 
-    private void SetupButtons(GridLayoutGroup buttonGroup, string affix, Color color, bool drive)
+    private void ClickCorrespondingButton(string buttonName)
     {
-        var childButtons = buttonGroup.GetComponentsInChildren<Button>();
-        foreach (var childButton in childButtons) {
-            string buttonName = "Button_" + childButton.transform.GetSiblingIndex() + "_" + affix;
-            childButton.name = buttonName;
-            childButton.image.color = color;
-            childButton.GetComponentInChildren<Text>().text = buttonName;
-            if (drive)
-                childButton.onClick.AddListener(() => { Debug.Log(childButton.name); });
-        }
+        var altButtonName = buttonName + ButtonGridClickHandler.ALT_AFFIX;
+        var altButtonElement = _driver.FindElement(By.Type<Button>(altButtonName));
+        altButtonElement.LeftClick();
     }
 }

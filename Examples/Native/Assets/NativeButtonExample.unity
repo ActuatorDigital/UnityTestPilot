@@ -1824,7 +1824,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1242, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &461197420
 MonoBehaviour:
@@ -2986,7 +2986,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 100}
@@ -3046,7 +3046,7 @@ MonoBehaviour:
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: -1
-  m_FlexibleWidth: -1
+  m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
 --- !u!1 &776192948
@@ -3710,7 +3710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35884312cdc76129aec372e68ac7936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _namePrefix: Button()
 --- !u!1 &869505006
 GameObject:
   m_ObjectHideFlags: 0
@@ -4079,7 +4078,6 @@ GameObject:
   - component: {fileID: 889763570}
   - component: {fileID: 889763569}
   - component: {fileID: 889763568}
-  - component: {fileID: 889763567}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -4130,20 +4128,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 935}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &889763567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889763565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f37f88f252a9baa9a5b77cc304f6232, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clickPanel: {fileID: 0}
-  _simulatePanel: {fileID: 0}
 --- !u!114 &889763568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4161,7 +4145,7 @@ MonoBehaviour:
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: -1
-  m_FlexibleWidth: -1
+  m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
 --- !u!114 &889763569
@@ -4181,7 +4165,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 100}
@@ -7246,8 +7230,9 @@ GameObject:
   - component: {fileID: 1438534013}
   - component: {fileID: 1438534012}
   - component: {fileID: 1438534011}
-  - component: {fileID: 1438534016}
   - component: {fileID: 1438534015}
+  - component: {fileID: 1438534016}
+  - component: {fileID: 1438534017}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7357,7 +7342,7 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
+  m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -7375,6 +7360,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clickPanel: {fileID: 768499761}
   _simulatePanel: {fileID: 889763569}
+--- !u!114 &1438534017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438534010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfdb67d46cc5676890c5a8b221a4b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttonGridClickHandler: {fileID: 1438534016}
 --- !u!1 &1438809940
 GameObject:
   m_ObjectHideFlags: 0
@@ -8724,7 +8722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35884312cdc76129aec372e68ac7936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _namePrefix: Button()
 --- !u!114 &1606977460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8999,7 +8996,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1242, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1636842131
 MonoBehaviour:
@@ -9024,8 +9021,8 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 0
-  m_ChildScaleWidth: 1
-  m_ChildScaleHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
 --- !u!1 &1661576203
 GameObject:
   m_ObjectHideFlags: 0
