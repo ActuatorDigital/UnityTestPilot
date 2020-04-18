@@ -64,11 +64,11 @@
     <Compile Include="\media\Work\AIR-UnityTestPilot\UnityTestPilot.Native\Runtime\UiElementNative.cs" />
     <Compile Include="\media\Work\AIR-UnityTestPilot\UnityTestPilot.Native\Runtime\UnityDriverNative.cs" />
     <None Include="\media\Work\AIR-UnityTestPilot\UnityTestPilot.Native\Runtime\AIR.UnityTestPilot.Native.asmdef" />
-    <Reference Include="UnityEditor.UI">
-      <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/media/Work/AIR-UnityTestPilot/UnityExample/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/opt/unity/2019.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
