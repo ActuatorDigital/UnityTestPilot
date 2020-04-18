@@ -2,11 +2,8 @@ namespace AIR.UnityTestPilot.Queries
 {
     public abstract class NamedElementQuery : ElementQuery
     {
-        protected readonly string _queryName;
+        public readonly string NameToFind;
 
-        protected NamedElementQuery(string name) {
-            _queryName = name;
-        }
-        
+        protected NamedElementQuery(string nameToFind) => NameToFind = nameToFind;
     }
 }

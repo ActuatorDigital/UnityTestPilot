@@ -1,8 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>AIR.UnityTestpilot.Core</RootNamespace>
     </PropertyGroup>
+  
+      <Target Name="CopyFiles">
+        <Copy
+            SourceFiles="$(outdir)$(targetname)$(targetext)"
+            DestinationFolder="../UnityTestPilot.Native/Runtime/"
+        />
+    </Target>
 
 </Project>

@@ -1,12 +1,12 @@
 ﻿// Copyright (c) AIR Pty Ltd. All rights reserved.
 
-using AIR.UnityTestPilot.Remote;
+using AIR.UnityTestPilotRemote.Host;
 using UnityEngine;
 
-public class RemoteHostButtonExample : MonoBehaviour
+public class RemoteHostConnection : MonoBehaviour
 {
     private RemoteUnityAgentHost _host;
-    [SerializeField] private ConnectionStatusIndicator _connectionIndicator;
+    [SerializeField] private ConnectionStatusIndicator _connectionIndicator = null;
 
     private void Start()
     {

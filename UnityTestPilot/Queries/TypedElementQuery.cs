@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using AIR.UnityTestPilot.Interactions;
 
 namespace AIR.UnityTestPilot.Queries {
@@ -13,9 +12,7 @@ namespace AIR.UnityTestPilot.Queries {
             _queryName = name;
         }
 
-        public TypedElementQuery(Type type) {
-            _queryType = type;
-        }
+        public TypedElementQuery(Type type) => _queryType = type;
 
         public abstract override UiElement[] Search();
     }

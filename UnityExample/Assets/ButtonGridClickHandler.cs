@@ -7,10 +7,11 @@ using UnityEngine.UI;
 public class ButtonGridClickHandler : MonoBehaviour
 {
     public const string ALT_AFFIX = "_ALT";
-    public event Action<string> OnButtonClicked;
 
     [SerializeField] private GridLayoutGroup _clickPanel = null;
     [SerializeField] private GridLayoutGroup _simulatePanel = null;
+
+    public event Action<string> OnButtonClicked;
 
     public void Start()
     {

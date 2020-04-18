@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.UnityTestPilot.Native", "AIR.UnityTestPilot.Native.csproj", "{EDBE0406-57AA-6FBC-DEAA-4638CA14F69F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.UnityTestPilot.Remote", "AIR.UnityTestPilot.Remote.csproj", "{D79AB9F1-2D9B-960D-D706-B4238D692387}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.UnityTestPilotRemote.Host", "AIR.UnityTestPilotRemote.Host.csproj", "{B155D523-C071-BBD3-CC55-3F06BF2EB859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,10 @@ Global
 		{EDBE0406-57AA-6FBC-DEAA-4638CA14F69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDBE0406-57AA-6FBC-DEAA-4638CA14F69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDBE0406-57AA-6FBC-DEAA-4638CA14F69F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D79AB9F1-2D9B-960D-D706-B4238D692387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D79AB9F1-2D9B-960D-D706-B4238D692387}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D79AB9F1-2D9B-960D-D706-B4238D692387}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D79AB9F1-2D9B-960D-D706-B4238D692387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B155D523-C071-BBD3-CC55-3F06BF2EB859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B155D523-C071-BBD3-CC55-3F06BF2EB859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B155D523-C071-BBD3-CC55-3F06BF2EB859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B155D523-C071-BBD3-CC55-3F06BF2EB859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,3 +12,4 @@ UnityExample/*.csproj
 UnityExample/Logs/
 .vs/
 
+UnityExample/obj

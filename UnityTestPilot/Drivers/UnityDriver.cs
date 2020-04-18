@@ -10,9 +10,7 @@ namespace AIR.UnityTestPilot.Drivers {
         
         private readonly IUnityDriverAgent _agent;
 
-        public UnityDriver(IUnityDriverAgent agent) {
-            _agent = agent;
-        }
+        public UnityDriver(IUnityDriverAgent agent) => _agent = agent;
 
         public UiElement FindElement(ElementQuery query) {
             var elements = FindElements(query); 
@@ -26,10 +24,7 @@ namespace AIR.UnityTestPilot.Drivers {
             return element;
         }
 
-        public void Dispose() {
-            _agent.Shutdown();
-        }
-
+        public void Dispose() => _agent.Shutdown();
     }
     
 }

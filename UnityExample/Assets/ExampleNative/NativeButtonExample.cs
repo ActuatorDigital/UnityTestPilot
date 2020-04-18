@@ -1,4 +1,6 @@
-﻿using AIR.UnityTestPilot.Drivers;
+﻿// Copyright (c) AIR Pty Ltd. All rights reserved.
+
+using AIR.UnityTestPilot.Drivers;
 using AIR.UnityTestPilot.Queries;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,7 +8,7 @@ using UnityEngine.UI;
 public class NativeButtonExample : MonoBehaviour
 {
     private UnityDriver _driver;
-    [SerializeField] private ButtonGridClickHandler _buttonGridClickHandler;
+    [SerializeField] private ButtonGridClickHandler _buttonGridClickHandler = null;
 
     private void Start()
     {
