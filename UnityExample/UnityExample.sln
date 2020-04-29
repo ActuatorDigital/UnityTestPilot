@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.UnityTestPilot.Native.Tests", "AIR.UnityTestPilot.Native.Tests.csproj", "{F077E861-208E-5537-A2DD-4456279D85CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{CE6CC3C3-EFD9-8291-FB5C-9EC14965F3E8}"

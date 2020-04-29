@@ -11,10 +11,19 @@ public class DelayedClickCounter : MonoBehaviour
     [SerializeField] private Text _lateEffectTextPrefab = null;
     [SerializeField] private Text _nextButtonCounter = null;
 
+    private void Start() => SetSpawnText(0);
+
+    public void SetSpawnText(int spawnedTextsCount)
+    {
+        _nextButtonCounter.text = $"Spawn Text {spawnedTextsCount}";
+        _nextButtonCounter.name = $"Delayed_Counter_Text";
+        _spawnedTextsCount++;
+    }
+
     public void HandleDelayedCounterClicked()
     {
-        _nextButtonCounter.text = "Spawn Text " + (_spawnedTextsCount++);
         StartCoroutine(ClickFeedbackDelayed(_spawnedTextsCount));
+        SetSpawnText(_spawnedTextsCount);
     }
 
     private IEnumerator ClickFeedbackDelayed(int nextCounter)
