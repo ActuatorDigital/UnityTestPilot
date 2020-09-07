@@ -8,6 +8,8 @@ namespace AIR.UnityTestPilot.Interactions
         public abstract string Name { get; }
         public abstract bool IsActive { get; }
         public abstract string Text { get; }
+        public abstract Float3 LocalPosition { get; }
+        public abstract Float3 EulerRotation { get; }
         public abstract void MiddleClick();
         public abstract void RightClick();
         public abstract void LeftClick();

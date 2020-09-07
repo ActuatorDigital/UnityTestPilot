@@ -6,28 +6,11 @@
     "com.seb.coroutiner": "https://github.com/Fehrox/Coroutiner.git",
     "com.seb.tachyon.common": "https://github.com/Fehrox/TachyonCommon-UnityPackage.git",
     "com.seb.tachyon.host": "https://github.com/Fehrox/TachyonHost-UnityPackage.git",
-    "com.unity.ide.rider": "1.1.4",
+    "com.unity.ide.rider": "1.2.1",
+    "com.unity.ide.visualstudio": "2.0.2",
     "com.unity.ugui": "1.0.0"
   },
   "testables": [
     "com.air.unitytestpilot.native"
-  ],
-  "lock": {
-    "com.air.stylecop": {
-      "revision": "HEAD",
-      "hash": "699c75427953adeeb7f65e0bbe4e140e0c8834e0"
-    },
-    "com.seb.tachyon.common": {
-      "revision": "HEAD",
-      "hash": "beb1b2cc18f51359ef23f8951309bcf80ec8e045"
-    },
-    "com.seb.tachyon.host": {
-      "revision": "HEAD",
-      "hash": "1e587ace4e1601bcb5723bfce3b0a8fcc174a12c"
-    },
-    "com.seb.coroutiner": {
-      "revision": "HEAD",
-      "hash": "27d02e18a02df900258282add47ff9f9f349ccb2"
-    }
-  }
+  ]
 }

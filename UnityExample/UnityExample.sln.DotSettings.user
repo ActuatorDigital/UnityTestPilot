@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8aa4100f_002D6f93_002D49a6_002Db287_002D8d4081d5f60f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EulerRotation_OnRotatedObject_ReturnsEulerRotation" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::61E877F0-8E20-3755-A2DD-4456279D85CB::.NETFramework,Version=v4.7.1::UiElementPositionedObjectTests.Position_OnMovedObject_ReturnsObjectPosition&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

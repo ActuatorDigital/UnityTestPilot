@@ -6,10 +6,7 @@
     </PropertyGroup>
   
       <Target Name="CopyFiles">
-        <Copy
-            SourceFiles="$(outdir)$(targetname)$(targetext)"
-            DestinationFolder="../UnityTestPilot.Native/Runtime/"
-        />
+        <Copy SourceFiles="$(outdir)$(targetname)$(targetext)" DestinationFolder="../UnityTestPilot.Native/Runtime/" />
     </Target>
 
 </Project>
