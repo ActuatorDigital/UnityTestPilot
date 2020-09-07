@@ -13,9 +13,9 @@
     "com.air.unitytestpilot.native"
   ],
   "lock": {
-    "com.seb.coroutiner": {
+    "com.air.stylecop": {
       "revision": "HEAD",
-      "hash": "27d02e18a02df900258282add47ff9f9f349ccb2"
+      "hash": "699c75427953adeeb7f65e0bbe4e140e0c8834e0"
     },
     "com.seb.tachyon.common": {
       "revision": "HEAD",
@@ -25,9 +25,9 @@
       "revision": "HEAD",
       "hash": "1e587ace4e1601bcb5723bfce3b0a8fcc174a12c"
     },
-    "com.air.stylecop": {
+    "com.seb.coroutiner": {
       "revision": "HEAD",
-      "hash": "699c75427953adeeb7f65e0bbe4e140e0c8834e0"
+      "hash": "27d02e18a02df900258282add47ff9f9f349ccb2"
     }
   }
 }

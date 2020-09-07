@@ -2,7 +2,6 @@ AIR.UnityTestpilot/obj/
 AIR.UnityTestpilot/bin/
 UnityTestPilot/bin/
 UnityTestPilot/obj/
-.idea/
 UnityExample/Library/
 UnityExample/Temp/
 UnityExample/ProjectSettings/
@@ -10,6 +9,8 @@ UnityExample/*.sln
 UnityExample/Native/obj/
 UnityExample/*.csproj
 UnityExample/Logs/
-.vs/
-
 UnityExample/obj
+UnityTestPilot.sln.DotSettings.user
+
+.vs/
+.idea/
