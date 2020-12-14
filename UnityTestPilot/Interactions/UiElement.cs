@@ -1,3 +1,5 @@
+using System;
+
 namespace AIR.UnityTestPilot.Interactions
 {
     public abstract class UiElement
@@ -14,6 +16,7 @@ namespace AIR.UnityTestPilot.Interactions
         public abstract void RightClick();
         public abstract void LeftClick();
         public abstract void LeftClickDown();
+        public abstract void LeftClickAndHold(TimeSpan holdTime);
         public abstract void RightClickDown();
         public abstract void MiddleClickDown();
         public abstract void LeftClickUp();

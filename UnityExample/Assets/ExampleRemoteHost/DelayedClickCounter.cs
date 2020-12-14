@@ -11,8 +11,6 @@ public class DelayedClickCounter : MonoBehaviour
     [SerializeField] private Text _lateEffectTextPrefab = null;
     [SerializeField] private Text _nextButtonCounter = null;
 
-    private void Start() => SetSpawnText(0);
-
     public void SetSpawnText(int spawnedTextsCount)
     {
         _nextButtonCounter.text = $"Spawn Text {spawnedTextsCount}";
@@ -33,4 +31,6 @@ public class DelayedClickCounter : MonoBehaviour
         text.text = "Late effect " + nextCounter;
         text.gameObject.name = "DelayedEffect_Text_" + nextCounter;
     }
+
+    private void Start() => SetSpawnText(0);
 }

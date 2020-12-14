@@ -124,6 +124,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &184602551 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 655800602878461763, guid: c379e5c7db8afb74eac94985661274e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6953885401308845360}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0a074b096f8f32cadfd8af569ec5a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &497233299
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +741,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1510169900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4818033049087312135, guid: c379e5c7db8afb74eac94985661274e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6953885401308845360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1510169901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510169900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 184602551}
+          m_TargetAssemblyTypeName: ClickCounter, Assembly-CSharp
+          m_MethodName: HandleCounterButtonClicked
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1804473806
 GameObject:
   m_ObjectHideFlags: 0

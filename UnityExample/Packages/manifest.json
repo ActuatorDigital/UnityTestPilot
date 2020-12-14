@@ -7,7 +7,7 @@
     "com.seb.tachyon.common": "https://github.com/Fehrox/TachyonCommon-UnityPackage.git",
     "com.seb.tachyon.host": "https://github.com/Fehrox/TachyonHost-UnityPackage.git",
     "com.unity.ide.rider": "1.2.1",
-    "com.unity.ide.visualstudio": "2.0.2",
+    "com.unity.ide.visualstudio": "2.0.3",
     "com.unity.ugui": "1.0.0"
   },
   "testables": [
