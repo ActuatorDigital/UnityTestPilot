@@ -32,7 +32,9 @@ namespace AIR.UnityTestPilot.Queries {
         public static ElementQuery Path<TNamedQuery>(string path)
             where TNamedQuery : PathElementQuery
         {
-            var namedQuery = Activator.CreateInstance(typeof(TNamedQuery), path);
+            var namedQuery = Activator.CreateInstance(
+                typeof(TNamedQuery), 
+                path);
             return namedQuery as TNamedQuery;
         }
     }

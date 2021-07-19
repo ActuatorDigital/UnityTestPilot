@@ -8,6 +8,7 @@ namespace AIR.UnityTestPilot.Interactions
         protected UiElement(object obj) => _object = obj;
 
         public abstract string Name { get; }
+        public abstract string FullPath { get; }
         public abstract bool IsActive { get; }
         public abstract string Text { get; }
         public abstract Float3 LocalPosition { get; }

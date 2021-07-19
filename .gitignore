@@ -14,3 +14,5 @@ UnityTestPilot.sln.DotSettings.user
 
 .vs/
 .idea/
+UnityExample/Build
+UnityExample/CodeCoverage
