@@ -2253,7 +2253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Option A
+  m_Text: One
 --- !u!1 &2258046325540565923
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,7 +3492,6 @@ GameObject:
   - component: {fileID: 2908548311723932926}
   - component: {fileID: 2760442467586692993}
   - component: {fileID: 1332001045058586581}
-  - component: {fileID: 1510169901}
   m_Layer: 5
   m_Name: Clickable_Button
   m_TagString: Untagged
@@ -3613,35 +3612,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1510169901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4818033049087312135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 655800602878461763}
-          m_TargetAssemblyTypeName: ClickCounter, Assembly-CSharp
-          m_MethodName: HandleCounterButtonClicked
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &5031285376720624893
 GameObject:
   m_ObjectHideFlags: 0
@@ -4530,11 +4500,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Option A
+    - m_Text: One
       m_Image: {fileID: 0}
-    - m_Text: Option B
+    - m_Text: Two
       m_Image: {fileID: 0}
-    - m_Text: Option C
+    - m_Text: Three
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5620,11 +5590,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9757ca21a5340d982b33285ca8a02f53, type: 3}
---- !u!224 &8096008542777794204 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 211878690834068384, guid: 9757ca21a5340d982b33285ca8a02f53, type: 3}
-  m_PrefabInstance: {fileID: 8262542274486857020}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5639948007541880388 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4390847730266364792, guid: 9757ca21a5340d982b33285ca8a02f53, type: 3}
@@ -5636,3 +5601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &8096008542777794204 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 211878690834068384, guid: 9757ca21a5340d982b33285ca8a02f53, type: 3}
+  m_PrefabInstance: {fileID: 8262542274486857020}
+  m_PrefabAsset: {fileID: 0}
